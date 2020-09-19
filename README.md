@@ -1,85 +1,45 @@
-# Unit 03: JavaScript
+# Password Generator
 
-## Overview
-We’ve reached an important milestone in our journey: learning to code. This unit will introduce you to the fundamental programming concepts that are required to solve any computational problem. Though the focus of this course is JavaScript, the programming concepts you learn can be applied to any programming language. After you master JavaScript, it will be relatively easy to learn a second (or third or fourth) language.
+## Description
 
-In order for our web applications to be interactive, we need a way to respond to user actions in the browser. That's where JavaScript comes in. JavaScript is _the_ programming language of the web. It allows us to dynamically generate HTML and CSS based on predetermined conditions or user input. And every major browser, such as Firefox or Chrome, ships with a built-in JavaScript engine that runs our code for us. 
+An application that generates a random password based on user-selected criteria. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript code. It also features a clean and polished user interface and is responsive, ensuring that it adapts to multiple screen sizes.
 
-For the time being, we'll use JavaScript to write client-side code; that is, programs that only run in the browser. In later units, we'll use JavaScript to write applications to be run and deployed on servers.
+## Technologies used
 
-Starting this week, we are going to begin providing weekly algorithm problems for you to work on. Go through each problem according to the schedule outlined below. Spend up to a few hours trying to solve each problem without looking at the solution. If you're unable to solve a problem, study the solution to understand why it works then come back and try again later. Ask your instructional staff for help during office hours if you're having trouble understanding anything.
+- HTML5
+- CSS
+- Java Script
 
-### Part Time Schedule
+## Features
 
-* **Week 3** - Problems 1 - 5
+- When generate password button is clicked, the application promts user to input the length of the characters to include in the password
 
-* **Week 4** - Problems 6 - 9
+![Character length](/assets/snapshots/Prompt-Characterlength.PNG)
 
-* **Week 5** - Problems 10 - 13
+- If user selects character greater than 128 and less than 8 characters long,it prompts the user to re-enter the character length that meets the criteria
 
-* **Week 6** - Problems 14 - 17
+![Invalid Character Length](/assets/snapshots/prompt-InvalidCharacterlength.PNG)
 
-* **Week 7** - Problems 18 - 21
+- After entering the length, it prompts the user to select different character types to include in the password like uppercase, lowercase,numeric and special characters
 
-### Full Time Schedule
+![Lowercase Character Prompt](/assets/snapshots/confirm-lowercasecharacter.PNG)
+![Numeric Character Prompt](/assets/snapshots/confirm-numericcharacter.PNG)
+![Special Character Prompt](/assets/snapshots/confirm-specialcharacter.PNG)
+![Uppercase Character Prompt](/assets/snapshots/confirm-upeercasecharacter.PNG)
 
-* **Week 2** - Problems 1 - 9
+-Once the user selects the desired character types, the application generates and displays a random passoword that is strong and secure.
 
-* **Week 3** - Problems 10 - 17
+![Generated Password](/assets/snapshots/generatedpassword.PNG)
 
-* **Week 4** - Problems 18 - 21
+- If user doesnot select any of the options for the character type, it displays an alert message that one of the options needs to be selceted for the password to generate and the user has to restart the whole process again.
 
-## Key Topics
-The following topics are covered in this unit:
-* Code comments
-* Console
-* Variables
-* Data types
-* Booleans
-* Numbers
-* Strings
-* Arrays
-* Conditional statements
-* Equality
-* Logical, comparison, and ternary operators
-* for and while loops
-* Functions
-* Alerts, prompts, and confirms
-* Global vs. local scope
-* Objects
+![Invalid Entry](/assets/snapshots/)
 
-## Comprehension Check
-You will be employer-ready if you can answer the following questions:
-1. What are five fundamental concepts of programming?
-2. What are objects in JavaScript and why are they important?
-3. What is a function?
+## Usage
 
+Link to the deployed application: 
 
-## Learning Objectives
-You will be employer-competitive if you are able to:
-* Identify and declare variables containing primitive and object data types in JavaScript
-* Write for loops to iterate over strings and arrays
-* Write conditional statements using if/else and switch
-* Explain the importance of objects in JavaScript and create objects containing both properties and methods
-* Explain and implement the difference between function declarations and expressions
-* Explain and implement comparison and logical operators
+## Contributers
 
-## Algorithms
+- **[Anjali Pant](https://github.com/Anjali9293)** - *Password Generator Development*
 
-* 01-arithmetic - Create functions capable of different arithmetic operations.
-
-* 02-odd-or-even - Create a function that determines whether a number is odd or even.
-
-* 03-log-nums - Create a function that prints all whole numbers from 1 to a given number.
-
-## Homework: Password Generator
-
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.
-
-## Helpful Links
-* [MDN: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [MDN: JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-* [MDN: JavaScript Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
