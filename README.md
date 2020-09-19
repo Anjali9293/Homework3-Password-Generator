@@ -37,7 +37,9 @@ An application that generates a random password based on user-selected criteria.
 
 ## Usage
 
-Link to the deployed application: 
+Link to the deployed application: [Github Pages](https://anjali9293.github.io/Homework3-Password-Generator/)
+
+
 
 ## Contributers
 
