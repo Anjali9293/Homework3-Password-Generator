@@ -27,13 +27,13 @@ An application that generates a random password based on user-selected criteria.
 ![Special Character Prompt](/assets/snapshots/confirm-specialcharacter.PNG)
 ![Uppercase Character Prompt](/assets/snapshots/confirm-upeercasecharacter.PNG)
 
--Once the user selects the desired character types, the application generates and displays a random passoword that is strong and secure.
+- Once the user selects the desired character types, the application generates and displays a random passoword that is strong and secure.
 
 ![Generated Password](/assets/snapshots/generatedpassword.PNG)
 
 - If user doesnot select any of the options for the character type, it displays an alert message that one of the options needs to be selceted for the password to generate and the user has to restart the whole process again.
 
-![Invalid Entry](/assets/snapshots/)
+![Invalid Entry](/assets/snapshots/invalidentry.PNG)
 
 ## Usage
 
